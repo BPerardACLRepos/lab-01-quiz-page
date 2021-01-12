@@ -1,5 +1,5 @@
-export function checkForCorrectAnswer(userAnswer, correctAnswer) {
-    if (userAnswer.charAt(0).toUpperCase() === correctAnswer.charAt(0).toUpperCase()) {
+export function checkForCorrectAnswer(userAnswerString, correctAnswerString) {
+    if (userAnswerString.charAt(0).toUpperCase() === correctAnswerString.charAt(0).toUpperCase()) {
         return true;
     } else {
         return false;

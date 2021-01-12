@@ -18,7 +18,7 @@ quizStartButton.addEventListener('click', () => {
     // Will viral videos be the height of kickball glory? Y
 
     const userAnswerOne = prompt('Will positive reinforcement make your team one of the best ever?');
-    if (userAnswerOne.charAt(0).toUpperCase() === 'Y') {
+    if (checkForCorrectAnswer(userAnswerOne, 'No')) {
         correctAnswers++;
     }
     console.log(correctAnswers);

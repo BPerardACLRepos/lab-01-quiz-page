@@ -1,18 +1,19 @@
-// IMPORT MODULES under test here:
-// import { example } from '../example.js';
+import { checkForCorrectAnswer } from '../utils.js'
 
 const test = QUnit.test;
 
-test('time to test a function', (expect) => {
-    //Arrange
-    // Set up your arguments and expectations
+test('function should return true if first character of argument strings match, else false', (expect) => {
     const expected = true;
-    
-    //Act 
-    // Call the function you're testing and set the result to a const
-    const actual = false;
 
-    //Expect
-    // Make assertions about what is expected versus the actual result
+    const actual = checkForCorrectAnswer('tasty', 'toads');
+
+    expect.equal(actual, expected);
+});
+
+test('function should return true if first character of argument strings match, else false', (expect) => {
+    const expected = false;
+
+    const actual = checkForCorrectAnswer('gross', 'toads');
+
     expect.equal(actual, expected);
 });
