@@ -1,4 +1,4 @@
-
+import { checkForCorrectAnswer } from './utils.js'
 
 const quizStartButton = document.querySelector('#quiz-button');
 const userAnswerDiv = document.querySelector('#user-results');
@@ -24,3 +24,6 @@ quizStartButton.addEventListener('click', () => {
     console.log(correctAnswers);
 
 })
+
+console.log(checkForCorrectAnswer('adfas', 'asdfa'));
+console.log(checkForCorrectAnswer('asdfa', 'feqw'));
