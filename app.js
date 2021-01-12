@@ -12,5 +12,15 @@ quizStartButton.addEventListener('click', () => {
     if (!userConfirm) {
         return;
     }
-    console.log('yollo')
+
+    // Will positive reinforcement make your team one of the best ever? N
+    // If someone brings a bat to kickball, should you question their intent? Y
+    // Will viral videos be the height of kickball glory? Y
+
+    const userAnswerOne = prompt('Will positive reinforcement make your team one of the best ever?');
+    if (userAnswerOne.charAt(0).toUpperCase() === 'Y') {
+        correctAnswers++;
+    }
+    console.log(correctAnswers);
+
 })
