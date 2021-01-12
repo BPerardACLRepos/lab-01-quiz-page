@@ -1,4 +1,4 @@
-import { checkForCorrectAnswer } from '../utils.js'
+import { checkForCorrectAnswer } from '../utils.js';
 
 const test = QUnit.test;
 

@@ -1,4 +1,4 @@
-import { checkForCorrectAnswer } from './utils.js'
+import { checkForCorrectAnswer } from './utils.js';
 
 const quizStartButton = document.querySelector('#quiz-button');
 const userAnswerDiv = document.querySelector('#user-results');
@@ -34,5 +34,5 @@ quizStartButton.addEventListener('click', () => {
 
     const percentCorrect = Math.floor(correctAnswers / totalAnswers * 100);
 
-    userAnswerDiv.textContent = `You got ${correctAnswers} out of ${totalAnswers} correct (${percentCorrect}%).`
-})
+    userAnswerDiv.textContent = `You got ${correctAnswers} out of ${totalAnswers} correct (${percentCorrect}%).`;
+});
