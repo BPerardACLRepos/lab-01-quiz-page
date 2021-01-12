@@ -1,5 +1,9 @@
-// import functions and grab DOM elements
 
-// initialize state
 
-// set event listeners to update state and DOM
+const quizStartButton = document.querySelector('#quiz-button');
+const userAnswerDiv = document.querySelector('#user-results');
+
+quizStartButton.addEventListener('click', () => {
+    let correctAnswers = 0;
+    console.log(correctAnswers)
+})

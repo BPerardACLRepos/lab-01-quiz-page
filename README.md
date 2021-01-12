@@ -3,7 +3,7 @@
 - Assign const to the button and answer HTML elements for JS to add interactivity to the page
   > Attempt to change styles on elements to ensure properly selected
 
-- Initiate quiz with button at bottom of information
+- Initiate quiz with button at bottom of information through addEventListener
   > Test click handler with console.log
 
 - Initiate let correctAnswerTracker for counting correct answers
